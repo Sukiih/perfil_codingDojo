@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfil de usuario de Linn Olsen, Diseñadora UX/UI y Desarrolladora Frontend.">
+    <meta name="author" content="Waleska Silva">
+    <meta name="keywords" content="Perfil, Diseñadora, Desarrolladora, UX/UI, Frontend">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Perfil - Linn Olsen</title>
+</head>
+<body>
+    <header class="navbar">
+        <h2>Perfil</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi Perfil</a></li>
+                <li><a href="#">Encontrar</a></li>
+                <li><a href="#conexiones">Conexiones</a></li>
+                <li><button id="btn-logout">Cerrar Sesión</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!--COLUMNA IZQUIERDA-->
+        <section class="usuario">
+            <div class="card">
+                <div class="card-color"></div>
+                <img src="./assets/img/mujer_ia.webp" alt="foto de perfil de Linn">
+                
+                <div class="card-title">
+                    <h1>Linn Olsen</h1>
+                </div>
+                <div class="card-body">
+                    <h3>Bergen, Noruega</h3><br>
+                    <h4>Diseñadora UX/UI | Desarrolladora Frontend | Amante de la naturaleza</h4><br>
+                    <p>Apasionada por crear experiencias digitales hermosas y funcionales. Cuando no está
+                        codificando, disfruta explorando los fiordos noruegos y capturando la belleza de 
+                        la naturaleza en fotografías.
+                    </p>
+                </div>
+                <a href="#" class="edit"><i class="fa-solid fa-gear" style="color: #098fc9;"></i> Edit profile</a>
+            </div>
+
+            <div class="educacion">
+                <h2>Education</h2>
+                <h4>Coding Dojo - Bootcamp de Desarrollo Full Stack</h4>
+                <time datetime="2019-12">Dic 2019</time> - <time datetime="2020-03">Mar 2020</time>
+                <p>Triple cinturón negro en Python, MERN y C#</p>
+            </div>
+        </section>
+
+        <!--COLUMNA DERECHA-->
+        <aside class="social">
+            <div class="solicitudes">
+                <h2>Solicitudes de Conexión (2)</h2>
+                <p class="amigo">
+                    <img class="solis" src="./assets/img/kai.jpg" alt="foto de perfil de Kai Schröder">
+                    <span class="persona">
+                        Kai Schröder
+                    </span>
+                    <span class="simbolos">
+                        <i class="fa-regular fa-circle-check fa-2xl" style="color: #f25454a6;"></i>
+                        <i class="fa-regular fa-circle-xmark fa-2xl" style="color: #f25454a6;"></i>
+                    </span>
+                </p>
+                
+                <p class="amigo">
+                    <img class="solis" src="./assets/img/amira.jpg" alt="foto de perfil de Amira El-Masry">
+                    <span class="persona">
+                        Amira El-Masry
+                    </span>
+                    <span class="simbolos2">
+                        <i class="fa-regular fa-circle-check fa-2xl" style="color: #f25454a6;"></i>
+                        <i class="fa-regular fa-circle-xmark fa-2xl" style="color: #f25454a6;"></i>
+                    </span>
+                </p>
+            </div>
+
+            <div class="conexiones" id="conexiones">
+                <h2>Tus Conexiones (500+)</h2>
+                <div class="conexiones-list">
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/adrien.jpg" alt="foto de perfil de Adrien Desplatz">
+                        <p>Adrien Desplatz</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/Aarav.jpg" alt="foto de perfil de Aarav Patel">
+                        Aarav Patel
+                    </div>
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/lina.jpg" alt="foto de perfil de Lina Kovacevic">
+                        Lina Kovacevic
+                    </div>
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/Mateo.jpg" alt="foto de perfil de Mateo Hernández">
+                        Mateo Hernández
+                    </div>
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/Yuna.jpg" alt="foto de perfil de Yuna Kim">
+                        Yuna Kim
+                    </div>
+                    <div class="friend">
+                        <img class="friends" src="./assets/img/Liam.jpg" alt="foto de perfil de Liam O'Brien">
+                        Liam O'Brien
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
